@@ -4,7 +4,7 @@ export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
 picom --config "$SCRIPTPATH"/picom.conf &> /dev/null & 
 
-feh --bg-scale "${SCRIPTPATH}/wallpapers/astronaut-playing-guitar.jpg"
+feh --bg-scale "${SCRIPTPATH}/wallpapers/astronaut-playing-guitar.jpg" &
 
 dunst -conf "$SCRIPTPATH"/dunstrc &
 
