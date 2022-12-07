@@ -1,0 +1,7 @@
+[[language]]
+name = "bash"
+file-types = ["config", "sxhkdrc"]
+
+[[language]]
+name = "toml"
+file-types = ["conf"]
