@@ -80,7 +80,7 @@ exec --no-startup-id nm-applet
 
 ######## Dealing with autostart programs  #############
 # Closing startup programs if running
-exec_always --no-startup-id ~/.config/i3/autoclose.sh
+#exec_always --no-startup-id ~/.config/i3/autoclose.sh
 # Other startup programs
 exec_always --no-startup-id ~/.config/i3/autostart.sh
 

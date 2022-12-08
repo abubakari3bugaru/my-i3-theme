@@ -2,6 +2,12 @@
 export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 #SCRIPTPATH=$(pwd)
 
+#killing the processes if previously running
+pkill sxhkd
+pkill polybar
+pkill dunst
+killall lxqt-policykit-agent
+
 picom --config "$SCRIPTPATH"/picom.conf &> /dev/null & 
 
 feh --bg-scale "${SCRIPTPATH}/wallpapers/astronaut-playing-guitar.jpg" &
@@ -21,4 +27,4 @@ amixer sset Master unmute &
 amixer sset Speaker unmute &
 amixer sset Headphone unmute &
 
-exec sxhkd -c "$SCRIPTPATH"/sxhkdrc &
+sxhkd -c "$SCRIPTPATH"/sxhkdrc &
