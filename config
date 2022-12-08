@@ -31,12 +31,12 @@ assign [class="qBittorrent"] 8
 assign [class="xdman-Main"] 8
 assign [class="timeshift-gtk"] 7
 
-for_window [class="Virt-manager"] floating enable
-for_window [class="Protonvpn"] floating enable
+for_window [class="Virt-manager"] floating enable, border pixel 0
+for_window [class="Protonvpn"] floating enable, border pixel 0
 for_window [class="Ventoy2Disk.gtk3"] floating enable
-for_window [class="mpv"] floating enable
-for_window [class="xdman-Main"] floating enable
-for_window [class="timeshift-gtk"] floating enable
+for_window [class="mpv"] floating enable, border pixel 0
+for_window [class="xdman-Main"] floating enable, border pixel 0 
+for_window [class="timeshift-gtk"] floating enable, border pixel 0
 
 ########### Scratpads ############
 # Scratchpad for ranger
