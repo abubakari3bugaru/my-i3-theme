@@ -16,6 +16,8 @@ dunst -conf "$SCRIPTPATH"/dunstrc &
 
 lxqt-policykit-agent &
 
+sxhkd -c "$SCRIPTPATH"/sxhkdrc &
+
 cd ${SCRIPTPATH}/polybar
 polybar -m | sed s/:.*// | tac | while read -r monitor
 do 
@@ -27,4 +29,3 @@ amixer sset Master unmute &
 amixer sset Speaker unmute &
 amixer sset Headphone unmute &
 
-sxhkd -c "$SCRIPTPATH"/sxhkdrc &
