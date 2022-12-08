@@ -20,3 +20,5 @@ done
 amixer sset Master unmute &
 amixer sset Speaker unmute &
 amixer sset Headphone unmute &
+
+exec sxhkd -c "$SCRIPTPATH"/sxhkdrc &
