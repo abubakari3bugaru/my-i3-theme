@@ -1,6 +1,6 @@
 [[language]]
 name = "bash"
-file-types = ["config", "sxhkdrc"]
+file-types = ["config"]
 
 [[language]]
 name = "toml"
