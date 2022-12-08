@@ -234,7 +234,18 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+bindsym $mod+space mode "$mode_launcher"
 
+mode "$mode_launcher" {
+        bindsym b exec firefox
+        bindsym f exec pcmanfm
+        bindsym p exec rofi -no-config -no-lazy-grap -show drun -modi drun -theme ~/.config/i3/rofi/launcher.rasi
+
+        bindsym Escape mode "default"
+        bindsym Return mode "default"
+}
+
+bindsym $legacy_mod+Insert exec kazam -f
 ###############################
 #### Gruvbox Material Dark ####
 ###############################

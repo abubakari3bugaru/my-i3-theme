@@ -3,7 +3,6 @@ export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 #SCRIPTPATH=$(pwd)
 
 #killing the processes if previously running
-pkill sxhkd
 pkill polybar
 pkill dunst
 killall lxqt-policykit-agent
@@ -15,8 +14,6 @@ feh --bg-scale "${SCRIPTPATH}/wallpapers/astronaut-playing-guitar.jpg" &
 dunst -conf "$SCRIPTPATH"/dunstrc &
 
 lxqt-policykit-agent &
-
-sxhkd -c "$SCRIPTPATH"/sxhkdrc &
 
 cd ${SCRIPTPATH}/polybar
 polybar -m | sed s/:.*// | tac | while read -r monitor
