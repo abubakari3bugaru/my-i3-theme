@@ -10,7 +10,7 @@ killall lxqt-policykit-agent
 
 picom --config "$SCRIPTPATH"/picom.conf &> /dev/null & 
 
-feh --bg-scale "${SCRIPTPATH}/wallpapers/butterfly-man.jpg" &
+feh --bg-scale "${SCRIPTPATH}/wallpapers/butterfly-man.png" &
 
 dunst -conf "$SCRIPTPATH"/dunstrc &
 
