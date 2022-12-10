@@ -22,6 +22,8 @@ All in one theme configuration files for the i3 window manager.
 
 - kazam
 
+- xfce4-power-manager
+
 ## installation
 
 Clone the repo into your i3 config directory and reload i3
