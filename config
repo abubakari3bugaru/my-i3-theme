@@ -239,6 +239,7 @@ bindsym $mod+space mode "$mode_launcher"
 mode "$mode_launcher" {
         bindsym b exec firefox
         bindsym f exec pcmanfm
+        bindsym l exec i3lock -i ~/.config/i3/wallpapers/butterfly-man.png
         bindsym p exec rofi -no-config -no-lazy-grap -show drun -modi drun -theme ~/.config/i3/rofi/launcher.rasi
 
         bindsym Escape mode "default"
