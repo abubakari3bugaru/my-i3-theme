@@ -4,4 +4,4 @@ file-types = ["config"]
 
 [[language]]
 name = "toml"
-file-types = ["conf"]
+file-types = ["conf", "dunstrc"]
