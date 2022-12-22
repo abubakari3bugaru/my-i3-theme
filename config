@@ -235,9 +235,9 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-bindsym $mod+space mode "$mode_launcher"
+bindsym $mod+space mode "mode_launcher"
 
-mode "$mode_launcher" {
+mode "mode_launcher" {
         bindsym b exec firefox
         bindsym f exec pcmanfm
         bindsym r exec rhythmbox
@@ -248,9 +248,9 @@ mode "$mode_launcher" {
         bindsym Return mode "default"
 }
 
-bindsym $legacy_mod+Insert mode "$mode_screenshot"
+bindsym $legacy_mod+Insert mode "mode_screenshot"
 
-mode "$mode_screenshot" {
+mode "mode_screenshot" {
         bindsym f exec flameshot full   # Full screen capture
         bindsym g exec flameshot gui    # Manual capture in GUI mode
 
