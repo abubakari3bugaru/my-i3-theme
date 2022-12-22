@@ -248,7 +248,15 @@ mode "$mode_launcher" {
         bindsym Return mode "default"
 }
 
-bindsym $legacy_mod+Insert exec flameshot full
+bindsym $legacy_mod+Insert mode "$mode_screenshot"
+
+mode "$mode_screenshot" {
+        bindsym f exec flameshot full   # Full screen capture
+        bindsym g exec flameshot gui    # Manual capture in GUI mode
+
+        bindsym Escape mode "default"
+        bindsym Return mode "default"
+}
 
 ###############################
 #### Gruvbox Material Dark ####
