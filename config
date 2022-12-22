@@ -248,7 +248,8 @@ mode "$mode_launcher" {
         bindsym Return mode "default"
 }
 
-bindsym $legacy_mod+Insert exec kazam -f
+bindsym $legacy_mod+Insert exec flameshot full
+
 ###############################
 #### Gruvbox Material Dark ####
 ###############################
