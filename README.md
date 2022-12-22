@@ -20,7 +20,7 @@ All in one theme configuration files for the i3 window manager.
 
 - alsamixer
 
-- kazam
+- flameshot
 
 - xfce4-power-manager
 
