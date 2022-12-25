@@ -126,6 +126,7 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
+# resize focused window
 bindsym $mod+Control+h resize shrink width 1 px or 1 ppt
 bindsym $mod+Control+j resize grow height 1 px or 1 ppt
 bindsym $mod+Control+k resize shrink height 1 px or 1 ppt
