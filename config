@@ -215,9 +215,9 @@ mode "resize" {
 }
 
 # App launcher keychords
-bindsym $mod+space mode "mode_launcher"
+bindsym $mod+space mode "launcher"
 
-mode "mode_launcher" {
+mode "launcher" {
         bindsym b exec firefox
         bindsym f exec pcmanfm
         bindsym r exec rhythmbox
@@ -229,9 +229,9 @@ mode "mode_launcher" {
 }
 
 # Screenshot Keychords
-bindsym $legacy_mod+Insert mode "mode_screenshot"
+bindsym $legacy_mod+Insert mode "screenshot"
 
-mode "mode_screenshot" {
+mode "screenshot" {
         bindsym f exec flameshot full   # Full screen capture
         bindsym g exec flameshot gui    # Manual capture in GUI mode
 
