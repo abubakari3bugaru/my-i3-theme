@@ -10,7 +10,7 @@ killall lxqt-policykit-agent
 
 picom --config "$SCRIPTPATH"/picom.conf &> /dev/null & 
 
-feh --bg-scale "${SCRIPTPATH}/wallpapers/rusty-rust.jpg" &
+feh --bg-fill "${SCRIPTPATH}/wallpapers/rusty-rust.jpg" &
 
 dunst -conf "$SCRIPTPATH"/dunstrc &
 
