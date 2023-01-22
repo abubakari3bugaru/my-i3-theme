@@ -6,27 +6,27 @@ All in one theme configuration files for the i3 window manager.
 
 ## prerequisites
 
-- picom
+- **picom**; For compositing.
 
-- polybar
+- **polybar**; For the status bar.
 
-- dunst
+- **dunst**; For notifications.
 
-- rofi
+- **rofi**; For launching applications.
 
-- feh
+- **feh**; For setting the background wallpaper.
 
-- lxqt-policykit-agent
+- **lxqt-policykit-agent**; For managing root access on GUI applications.
 
-- alsamixer
+- **alsamixer**; For volume control through the terminal.
 
-- flameshot
+- **flameshot**; For taking screenshots.
 
-- xfce4-power-manager
+- **xfce4-power-manager**; For power management.
 
-- pipewire-alsa
+- **pipewire-alsa**; For the volume widget in polybar.
 
-- **Fonts**; feather.ttf and iosevka-nerd-font.ttf
+- **Fonts**; *feather.ttf and iosevka-nerd-font.ttf*, For the icons in polybar.
 
 ## installation
 
