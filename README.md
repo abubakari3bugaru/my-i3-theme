@@ -28,6 +28,8 @@ All in one theme configuration files for the i3 window manager.
 
 - **Fonts**; *feather.ttf and iosevka-nerd-font.ttf*, For the icons in polybar.
 
+- **papirus-icon-theme**; For the icons in rofi.
+
 ## installation
 
 Clone the repo into your i3 config directory and reload i3
