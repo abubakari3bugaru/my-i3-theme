@@ -24,6 +24,10 @@ All in one theme configuration files for the i3 window manager.
 
 - xfce4-power-manager
 
+- pipewire-alsa
+
+- **Fonts**; feather.ttf and iosevka-nerd-font.ttf
+
 ## installation
 
 Clone the repo into your i3 config directory and reload i3
