@@ -10,7 +10,7 @@ killall lxqt-policykit-agent
 
 picom --config "$SCRIPTPATH"/picom.conf &> /dev/null & 
 
-feh --bg-fill "${SCRIPTPATH}/wallpapers/programming.jpg" &
+feh --bg-fill "${SCRIPTPATH}/wallpapers/wall3.jpg" &
 
 dunst -conf "$SCRIPTPATH"/dunstrc &
 
